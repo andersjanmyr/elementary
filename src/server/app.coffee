@@ -1,8 +1,10 @@
 express = require 'express'
 jade = require 'jade'
+io = require 'socket.io'
 
 
 app = express.createServer()
+io.listen(app)
 
 app.configure ->
   app.use express.bodyParser()
