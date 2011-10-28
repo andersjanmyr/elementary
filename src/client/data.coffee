@@ -1,4 +1,4 @@
-front_page
+window.front_page =
   template: 'front-page'
   blocks: [
     block:
