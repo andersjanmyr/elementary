@@ -1,14 +1,16 @@
 !!! 5
 html(lang="en")
   head
-    img(src='images/elementary.png');
     title Elementary
+    link(href='css/main.css', media='screen', rel='stylesheet', type='text/css')
     script(src='js/vendor/jquery-1.6.3.js', type='text/javascript')
     script(src='js/vendor/underscore.js', type='text/javascript')
     script(src='js/vendor/backbone.js', type='text/javascript')
     script(src='js/vendor/json2.js', type='text/javascript')
+    script(src='/socket.io/socket.io.js', type='text/javascript')
     script(src='js/lib/main.js', type='text/javascript')
-    <script src="/socket.io/socket.io.js"></script>
   body
-    #container
+    img(src='images/elementary.png');
+    #admin-container
+    #page-container
 
