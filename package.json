@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "express":"",
+    "handlebars":"",
+    "jade":"",
     "mongodb":"",
     "socket.io":"",
-    "jade":"",
     "stylus":""
   },
   "devDependencies": {
