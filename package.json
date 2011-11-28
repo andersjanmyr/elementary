@@ -1,6 +1,12 @@
 {
   "name":"elements",
   "version":"0.0.1",
+  "engines": { "node": ">= 0.4.1 < 0.7.0" },
+  "author": {
+    "name": "Anders Janmyr",
+    "email": "anders@janmyr.com",
+    "url": "http://anders.janmyr.com"
+  },
   "dependencies": {
     "express":"",
     "mongodb":"",
@@ -8,7 +14,11 @@
     "jade":"",
     "stylus":""
   },
+  "devDependencies": {
+    "jasmine-node":""
+  },
   "scripts": {
+    "start": "node lib/app.js",
     "test": "jasmine-node --coffee specs"
   }
 }
