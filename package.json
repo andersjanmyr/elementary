@@ -1,12 +1,15 @@
 {
   "name":"elements",
   "version":"0.0.1",
-  "dependencies":{
+  "dependencies": {
     "express":"",
     "mongodb":"",
     "socket.io":"",
-    "jade":""
+    "jade":"",
     "stylus":""
+  },
+  "scripts": {
+    "test": "jasmine-node --coffee specs"
   }
 }
 

@@ -1,4 +1,4 @@
-(function() {
+
   window.front_page = {
     template: 'front-page',
     blocks: [
@@ -28,4 +28,3 @@
       }
     ]
   };
-}).call(this);
