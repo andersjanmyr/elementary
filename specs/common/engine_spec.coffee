@@ -10,9 +10,7 @@ describe 'Page', ->
   it 'should render a layout', ->
     engine = new Engine
     page = new Page('page', '{{title}}')
-    console.log('dingo', page.layoutText())
-    html = engine.renderPage(page, {title: 'Title'}) 
-    expect(html).toBe('Title')
-    console.log html
+    html = engine.renderPage(page, {title: 'Dingo'}) 
+    expect(html).toBe('Dingo')
     
 
